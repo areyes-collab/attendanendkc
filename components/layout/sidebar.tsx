@@ -3,22 +3,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
-import { 
-  Users, 
-  Calendar, 
-  MapPin, 
-  BarChart3, 
-  Settings, 
-  Clock,
-  UserCheck,
-  Shield,
-  User,
-  Bell,
-  CreditCard,
-  Scan,
-  FileText,
-  ChevronRight
-} from 'lucide-react';
+import { Users, Calendar, MapPin, ChartBar as BarChart3, Settings, Clock, UserCheck, Shield, User, Bell, CreditCard, Scan, FileText, ChevronRight } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { Badge } from '@/components/ui/badge';
 

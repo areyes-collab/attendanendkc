@@ -7,7 +7,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { EmptyState } from '@/components/ui/empty-state';
 import { LoadingSpinner } from '@/components/ui/loading-spinner';
-import { Bell, Check, CheckCheck, X, Info, AlertTriangle, CheckCircle, XCircle, Trash2 } from 'lucide-react';
+import { Bell, Check, CheckCheck, X, Info, TriangleAlert as AlertTriangle, CircleCheck as CheckCircle, Circle as XCircle, Trash2 } from 'lucide-react';
 import { 
   markNotificationAsRead, 
   markAllNotificationsAsRead,
